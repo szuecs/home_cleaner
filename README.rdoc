@@ -27,13 +27,25 @@ Mac OSX X and Ruby.
 
   % gem install home_cleaner
 
+If that fails you may have not the rights to install, try again using sudo. 
+Update rubygems, if you get an error like: 
+ERROR:  While executing gem ... (Gem::RemoteSourceException)
+HTTP Response 302 fetching http://gems.rubyforge.org/yaml
+
+  % curl -LO http://production.cf.rubygems.org/rubygems/rubygems-update-1.3.7.gem 
+  % gem i rubygems-update-1.3.7.gem 
+  % update_rubygems
+
 == CONFIG
 
-Edit config file $home_cleaner-DIR/config/home_cleaner.yml for your needs of threshold and account which should not be deleted. 
+Edit config file $home_cleaner-DIR/config/home_cleaner.yml for your needs of 
+threshold and account which should not be deleted. 
 Default config:
 - For deletion blacklisted users: admin lokal Shared
 - threshold: > 1 month old 
-A launchd $home_cleaner-DIR/launchd/de.fuberlin.home_cleaner.plist is provided for running each monday at 7:01 AM. Just copy it to /Library/LaunchDaemons/ and change it for your needs.
+A launchd $home_cleaner-DIR/launchd/de.fuberlin.home_cleaner.plist is provided 
+for running each monday at 7:01 AM. Just copy it to /Library/LaunchDaemons/ 
+and change it for your needs.
 
 $home_cleaner-DIR = grandparent directory of: 
 
