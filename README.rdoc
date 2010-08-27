@@ -23,7 +23,7 @@ sufficient:
 
 == REQUIREMENTS
 
-  Ruby.
+Ruby.
 
 == INSTALL
 
@@ -35,7 +35,7 @@ Have a look at config/home_cleaner.yml.
 
 == Bug reports
 
-  Please, send me an e-mail.
+Please, send me an e-mail.
 
 == DEVELOPMENT
 
@@ -45,7 +45,7 @@ To check out the source code:
   
 == AUTHORS
 
-  Sandor Szücs, sandor.szuecs@fu-berlin.de
+Sandor Szücs, sandor.szuecs@fu-berlin.de
   
 == LICENSE
 
