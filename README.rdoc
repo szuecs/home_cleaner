@@ -29,8 +29,11 @@ Mac OS X and Ruby.
 
 If that fails you may have not the rights to install, try again using sudo. 
 Update rubygems, if you get an error like: 
-ERROR:  While executing gem ... (Gem::RemoteSourceException)
-HTTP Response 302 fetching http://gems.rubyforge.org/yaml
+
+  ERROR:  While executing gem ... (Gem::RemoteSourceException)
+  HTTP Response 302 fetching http://gems.rubyforge.org/yaml
+
+You can install rubygems version 1.3.7 with:
 
   % curl -LO http://production.cf.rubygems.org/rubygems/rubygems-update-1.3.7.gem 
   % gem i rubygems-update-1.3.7.gem 
