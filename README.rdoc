@@ -31,7 +31,20 @@ Ruby.
 
 == CONFIG
 
-Have a look at config/home_cleaner.yml. 
+Edit config file [1] for your needs of threshold and account which should 
+not be deleted. 
+Default config:
+- For deletion blacklisted users: admin lokal Shared
+- threshold: > 1 month old 
+A launchd [2] is provided for running each monday at 7:01 AM. Just copy 
+it to /Library/LaunchDaemons/ and change it for your needs.
+
+$home_cleaner-DIR = grandparent directory of: 
+
+  gem which home_cleaner
+
+[1] $home_cleaner-DIR/config/home_cleaner.yml
+[2] $home_cleaner-DIR/launchd/de.fuberlin.home_cleaner.plist
 
 == Bug reports
 
