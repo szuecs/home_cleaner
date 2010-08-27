@@ -41,7 +41,7 @@ HTTP Response 302 fetching http://gems.rubyforge.org/yaml
 Edit config file $home_cleaner-DIR/config/home_cleaner.yml for your needs of 
 threshold and account which should not be deleted. 
 Default config:
-- For deletion blacklisted users: admin lokal Shared
+- For deletion blacklisted directories: /Users/{admin,lokal,Shared}
 - threshold: > 1 month old 
 A launchd $home_cleaner-DIR/launchd/de.fuberlin.home_cleaner.plist is provided 
 for running each monday at 7:01 AM. Just copy it to /Library/LaunchDaemons/ 
