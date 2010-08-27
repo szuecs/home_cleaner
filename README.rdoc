@@ -8,7 +8,7 @@ maintaining a pc lab.
 Maybe you can achieve the same with UNIX find(1). The following could be 
 sufficient: 
 
-  find /Users/* -maxdepth 0 -mtime +7 -type d -not -name Shared | xargs -n1 rm -rf
+  % find /Users/* -maxdepth 0 -mtime +7 -type d -not -name Shared | xargs -n1 rm -rf
 
 == SYNOPSIS
 
@@ -23,11 +23,11 @@ sufficient:
 
 == REQUIREMENTS
 
-Ruby.
+Mac OSX X and Ruby.
 
 == INSTALL
 
-  gem install home_cleaner
+  % gem install home_cleaner
 
 == CONFIG
 
@@ -41,7 +41,7 @@ it to /Library/LaunchDaemons/ and change it for your needs.
 
 $home_cleaner-DIR = grandparent directory of: 
 
-  gem which home_cleaner
+  % gem which home_cleaner
 
 [1] $home_cleaner-DIR/config/home_cleaner.yml
 [2] $home_cleaner-DIR/launchd/de.fuberlin.home_cleaner.plist
@@ -54,7 +54,7 @@ Please, send me an e-mail.
 
 To check out the source code:
 
-  git clone http://github.com/szuecs/home_cleaner.git
+  % git clone http://github.com/szuecs/home_cleaner.git
   
 == AUTHORS
 
