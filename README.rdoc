@@ -21,7 +21,7 @@ sufficient:
 
 == REQUIREMENTS
 
-Mac OSX X and Ruby.
+Mac OS X and Ruby.
 
 == INSTALL
 
