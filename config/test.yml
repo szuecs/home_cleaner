@@ -1,0 +1,8 @@
+threshold: 0
+blacklist: 
+- "/"
+- "/Users"
+- "/Users/"
+- "/Users/admin"
+- "/Users/lokal"
+- "/Users/Shared"

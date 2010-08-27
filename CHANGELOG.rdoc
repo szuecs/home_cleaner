@@ -1,0 +1,14 @@
+=== 10.8.27
+
+* public release as gem
+* New Features
+  * The Software is configurable, now.
+  
+=== 10.1.18
+
+* 1 major enhancement
+  * Birthday!
+
+* New Features
+  * This Software cleans /Users/* safely, so that no data of local or 
+    currently logged in users are destroyed.

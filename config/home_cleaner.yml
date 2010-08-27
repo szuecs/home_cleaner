@@ -1,0 +1,14 @@
+# This is the default configuration file of the home_cleaner.
+# The options are mandatory!
+
+# Threshold is the time in seconds, when to delete an account. The default is 
+# a month (2592000). Accounts older than threshold will be deleted.
+threshold: 2592000
+# Directories that never should be deleted are blacklisted.
+blacklist: 
+- "/"
+- "/Users"
+- "/Users/"
+- "/Users/admin"
+- "/Users/lokal"
+- "/Users/Shared"

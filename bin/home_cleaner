@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby -wKU
+
+require 'home_cleaner'
+
+hc = HomeCleaner.new( HomeCleaner.parse_options )
+exit(hc.run)
