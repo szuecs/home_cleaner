@@ -1,5 +1,3 @@
-= HomeCleaner
-
 == DESCRIPTION
 
 home_cleaner deletes user directories on a Mac OS X computer when they are old 
