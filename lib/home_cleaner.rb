@@ -3,7 +3,7 @@ require "optparse"
 require "yaml"
 
 class HomeCleaner
-  VERSION = "10.8.27"
+  VERSION = "10.8.27.1"
   
   def self.default_options
     {

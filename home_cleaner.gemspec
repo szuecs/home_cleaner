@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
  "lib/home_cleaner.rb",
  "test/test_home_cleaner.rb"]
   s.has_rdoc = true
-  s.homepage = "http://rubygems.org/gems/home_cleaner"
+  s.homepage = "http://github.com/szuecs/home_cleaner"
   s.loaded = false
   s.name = "home_cleaner"
   s.platform = "ruby"
@@ -31,5 +31,5 @@ Gem::Specification.new do |s|
   s.specification_version = 3
   s.summary = "HomeCleaner cleans the given home directory, besides blacklisted accounts and currently logged in users of your local disk."
   s.test_files = ["test/test_home_cleaner.rb"]
-  s.version = "10.8.27"
+  s.version = "10.8.27.1"
 end
